@@ -1660,3 +1660,20 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+		 /* Styles for smaller screens */
+		 @media (max-width: 768px) {
+			#about {
+				flex-wrap: wrap; /* Allows the layout to adjust gracefully */
+			}
+	
+			#about .image {
+				flex: 0 0 30%; /* The image takes 30% of the width */
+				margin-right: 10px;
+			}
+	
+			#about p {
+				flex: 0 0 65%; /* Text takes up 65% of the width */
+			}
+		}
+		
