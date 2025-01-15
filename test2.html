@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aquatic-Themed Names</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,700&family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <style>
+        /* General Body Styling */
+        body {
+            font-family: 'Raleway', sans-serif;
+            background: linear-gradient(to bottom, #e0f7fa, #80deea); /* Light teal gradient */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            overflow: hidden;
+        }
+
+        /* Name Styling */
+        .aquatic-name {
+            font-family: 'Playfair Display', serif;
+            font-size: 4rem; /* Large font size */
+            color: #004d66; /* Deep teal */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Soft shadow */
+            letter-spacing: 2px;
+        }
+
+        /* Wave Effect for Names */
+        .aquatic-name::after {
+            content: "";
+            display: block;
+            margin: 0.5rem auto;
+            width: 50%;
+            height: 4px;
+            background: linear-gradient(to right, #004d66, transparent); /* Subtle wave gradient */
+            border-radius: 50%; /* Rounded edges for wave effect */
+        }
+
+        /* Styling for a tagline or subtext */
+        .subtext {
+            font-size: 1.2rem;
+            color: #006d84; /* Medium teal */
+            text-align: center;
+            margin-top: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="aquatic-name">Mrinaank</div>
+        <div class="aquatic-name">Partner's Name</div>
+        <div class="subtext">Calm as the ocean, strong as the tides</div>
+    </div>
+</body>
+</html>
